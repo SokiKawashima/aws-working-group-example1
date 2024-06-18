@@ -1,0 +1,9 @@
+# Serverless directories
+.serverless
+
+# python
+__pycache__
+.pytest_cache
+
+# github
+.github

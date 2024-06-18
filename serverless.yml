@@ -1,0 +1,23 @@
+service: fibonacci-app
+
+frameworkVersion: '4'
+
+provider:
+  name: aws
+  deploymentMethod: direct
+  runtime: python3.12
+  region: ap-northeast-1
+  architecture: arm64
+  stage: dev
+  ecr:
+    images:
+      appimage:
+        path: ./
+
+functions:
+  hello:
+    image:
+      name: appimage
+    url: true
+    timeout: 90
+    memorySize: 512
