@@ -1,5 +1,3 @@
-**https://qdgfg6e7h76dotuf43tajcb23m0pbxym.lambda-url.ap-northeast-1.on.aws**  
-
 # Get Started
 デプロイには以下のソフトウェアがインストールされている必要があります．  
 以下のソフトウェアがインストールされている必要があります．
@@ -45,7 +43,7 @@ aws_access_key_id=アクセスキーID
 aws_secret_access_key=シークレットアクセスキー
 ```
 
-## CI/CD -> 完成間に合わなさそう
+## CI/CD
 **GitHub Actions シークレットの設定方法**
 1. GitHubリポジトリにアクセス:
 リポジトリのホームページに移動します。
